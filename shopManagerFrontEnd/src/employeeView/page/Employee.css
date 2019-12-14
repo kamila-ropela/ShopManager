@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 30%;
+  height: 100vh;
+  background: #b33d71;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.data {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 100vh;
+}
+
+window::after {
+  content: "";
+  display: table;
+  clear: both;
+}
